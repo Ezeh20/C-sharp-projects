@@ -1,0 +1,15 @@
+C:\Users\buchi\Desktop\C#\Projects\FirstConsoleProject\bin\Debug\net8.0\FirstConsoleProject.exe
+C:\Users\buchi\Desktop\C#\Projects\FirstConsoleProject\bin\Debug\net8.0\FirstConsoleProject.deps.json
+C:\Users\buchi\Desktop\C#\Projects\FirstConsoleProject\bin\Debug\net8.0\FirstConsoleProject.runtimeconfig.json
+C:\Users\buchi\Desktop\C#\Projects\FirstConsoleProject\bin\Debug\net8.0\FirstConsoleProject.dll
+C:\Users\buchi\Desktop\C#\Projects\FirstConsoleProject\bin\Debug\net8.0\FirstConsoleProject.pdb
+C:\Users\buchi\Desktop\C#\Projects\FirstConsoleProject\obj\Debug\net8.0\FirstConsoleProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buchi\Desktop\C#\Projects\FirstConsoleProject\obj\Debug\net8.0\FirstConsoleProject.AssemblyInfoInputs.cache
+C:\Users\buchi\Desktop\C#\Projects\FirstConsoleProject\obj\Debug\net8.0\FirstConsoleProject.AssemblyInfo.cs
+C:\Users\buchi\Desktop\C#\Projects\FirstConsoleProject\obj\Debug\net8.0\FirstConsoleProject.csproj.CoreCompileInputs.cache
+C:\Users\buchi\Desktop\C#\Projects\FirstConsoleProject\obj\Debug\net8.0\FirstConsoleProject.sourcelink.json
+C:\Users\buchi\Desktop\C#\Projects\FirstConsoleProject\obj\Debug\net8.0\FirstConsoleProject.dll
+C:\Users\buchi\Desktop\C#\Projects\FirstConsoleProject\obj\Debug\net8.0\refint\FirstConsoleProject.dll
+C:\Users\buchi\Desktop\C#\Projects\FirstConsoleProject\obj\Debug\net8.0\FirstConsoleProject.pdb
+C:\Users\buchi\Desktop\C#\Projects\FirstConsoleProject\obj\Debug\net8.0\FirstConsoleProject.genruntimeconfig.cache
+C:\Users\buchi\Desktop\C#\Projects\FirstConsoleProject\obj\Debug\net8.0\ref\FirstConsoleProject.dll
