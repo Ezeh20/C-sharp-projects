@@ -1,5 +1,5 @@
-﻿int randomNumber = 0;
+﻿int randomNumber;
 
-randomNumber = new Random().Next(1, 100);
-
+Random dice = new();
+randomNumber = dice.Next(0, 11);
 Console.WriteLine(randomNumber);
