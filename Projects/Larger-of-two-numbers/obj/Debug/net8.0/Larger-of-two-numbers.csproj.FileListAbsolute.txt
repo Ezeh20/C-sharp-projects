@@ -1,0 +1,15 @@
+C:\Users\buchi\Desktop\C#\Projects\Larger-of-two-numbers\obj\Debug\net8.0\Larger-of-two-numbers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buchi\Desktop\C#\Projects\Larger-of-two-numbers\obj\Debug\net8.0\Larger-of-two-numbers.AssemblyInfoInputs.cache
+C:\Users\buchi\Desktop\C#\Projects\Larger-of-two-numbers\obj\Debug\net8.0\Larger-of-two-numbers.AssemblyInfo.cs
+C:\Users\buchi\Desktop\C#\Projects\Larger-of-two-numbers\obj\Debug\net8.0\Larger-of-two-numbers.csproj.CoreCompileInputs.cache
+C:\Users\buchi\Desktop\C#\Projects\Larger-of-two-numbers\obj\Debug\net8.0\Larger-of-two-numbers.sourcelink.json
+C:\Users\buchi\Desktop\C#\Projects\Larger-of-two-numbers\bin\Debug\net8.0\Larger-of-two-numbers.exe
+C:\Users\buchi\Desktop\C#\Projects\Larger-of-two-numbers\bin\Debug\net8.0\Larger-of-two-numbers.deps.json
+C:\Users\buchi\Desktop\C#\Projects\Larger-of-two-numbers\bin\Debug\net8.0\Larger-of-two-numbers.runtimeconfig.json
+C:\Users\buchi\Desktop\C#\Projects\Larger-of-two-numbers\bin\Debug\net8.0\Larger-of-two-numbers.dll
+C:\Users\buchi\Desktop\C#\Projects\Larger-of-two-numbers\bin\Debug\net8.0\Larger-of-two-numbers.pdb
+C:\Users\buchi\Desktop\C#\Projects\Larger-of-two-numbers\obj\Debug\net8.0\Larger-of-two-numbers.dll
+C:\Users\buchi\Desktop\C#\Projects\Larger-of-two-numbers\obj\Debug\net8.0\refint\Larger-of-two-numbers.dll
+C:\Users\buchi\Desktop\C#\Projects\Larger-of-two-numbers\obj\Debug\net8.0\Larger-of-two-numbers.pdb
+C:\Users\buchi\Desktop\C#\Projects\Larger-of-two-numbers\obj\Debug\net8.0\Larger-of-two-numbers.genruntimeconfig.cache
+C:\Users\buchi\Desktop\C#\Projects\Larger-of-two-numbers\obj\Debug\net8.0\ref\Larger-of-two-numbers.dll
