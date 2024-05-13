@@ -1,0 +1,15 @@
+C:\Users\buchi\Desktop\C#\Projects\Conditionals\obj\Debug\net8.0\Conditionals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buchi\Desktop\C#\Projects\Conditionals\obj\Debug\net8.0\Conditionals.AssemblyInfoInputs.cache
+C:\Users\buchi\Desktop\C#\Projects\Conditionals\obj\Debug\net8.0\Conditionals.AssemblyInfo.cs
+C:\Users\buchi\Desktop\C#\Projects\Conditionals\obj\Debug\net8.0\Conditionals.csproj.CoreCompileInputs.cache
+C:\Users\buchi\Desktop\C#\Projects\Conditionals\obj\Debug\net8.0\Conditionals.sourcelink.json
+C:\Users\buchi\Desktop\C#\Projects\Conditionals\bin\Debug\net8.0\Conditionals.exe
+C:\Users\buchi\Desktop\C#\Projects\Conditionals\bin\Debug\net8.0\Conditionals.deps.json
+C:\Users\buchi\Desktop\C#\Projects\Conditionals\bin\Debug\net8.0\Conditionals.runtimeconfig.json
+C:\Users\buchi\Desktop\C#\Projects\Conditionals\bin\Debug\net8.0\Conditionals.dll
+C:\Users\buchi\Desktop\C#\Projects\Conditionals\bin\Debug\net8.0\Conditionals.pdb
+C:\Users\buchi\Desktop\C#\Projects\Conditionals\obj\Debug\net8.0\Conditionals.dll
+C:\Users\buchi\Desktop\C#\Projects\Conditionals\obj\Debug\net8.0\refint\Conditionals.dll
+C:\Users\buchi\Desktop\C#\Projects\Conditionals\obj\Debug\net8.0\Conditionals.pdb
+C:\Users\buchi\Desktop\C#\Projects\Conditionals\obj\Debug\net8.0\Conditionals.genruntimeconfig.cache
+C:\Users\buchi\Desktop\C#\Projects\Conditionals\obj\Debug\net8.0\ref\Conditionals.dll
