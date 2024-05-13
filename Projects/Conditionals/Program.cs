@@ -1,4 +1,6 @@
-﻿int firstNumber;
+﻿using Internal;
+
+int firstNumber;
 int secondNumber;
 int thirdNumber;
 int total;
@@ -13,18 +15,28 @@ total = firstNumber + secondNumber + thirdNumber;
 
 if ((firstNumber == secondNumber) || (firstNumber == thirdNumber) || (secondNumber == thirdNumber))
 {
-    total += 2;
-    Console.WriteLine(
-        $"You did a double {firstNumber} {secondNumber} {thirdNumber} total : {total}"
-    );
+    if ((firstNumber == secondNumber) && (secondNumber == thirdNumber))
+    {
+        total += 6;
+        Console.WriteLine(
+            $"Congrats! you rolled a triple {firstNumber} {secondNumber} {thridNumber} total : {total}"
+        );
+    }
+    else
+    {
+        total += 3;
+        Console.WriteLine(
+            $"Congrats! you rolled a double {firstNumber} {secondNumber} {thridNumber} total : {total}"
+        );
+    }
 }
+
 
 if (total >= 15)
 {
     Console.WriteLine("You win");
 }
-
-if (total < 15)
+else
 {
     Console.WriteLine("You lose");
 }
