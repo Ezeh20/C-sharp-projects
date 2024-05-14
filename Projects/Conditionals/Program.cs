@@ -34,19 +34,64 @@ if ((firstNumber == secondNumber) || (firstNumber == thirdNumber) || (secondNumb
     }
 }
 
-if (total >= 16)
+// if (total >= 16)
+// {
+//     Console.WriteLine($"Congrats! you won a {firstPrice}");
+// }
+// else if (total >= 10)
+// {
+//     Console.WriteLine($"Congrats! you won a {secondPrice}");
+// }
+// else if (total == 7)
+// {
+//     Console.WriteLine($"Congrats! you won a {thirdPrice}");
+// }
+// else
+// {
+//     Console.WriteLine($"Congrats! you won a {fourthPrice}");
+// }
+
+/**
+* Improve renewal rate of subscriptions
+* Improve the renewal rate of subscription for a company
+* A random number will be generated to denote the number of days left for the user's sub (max 11 days)
+* 6 rules were given; display the required message
+*
+* if days left is 10 days or less, log Your subscription will expire soon. Renew now!
+* if days left is 5 days or less, log Your subscription expires in _ days. Renew now and save 10%!
+* if days left is 1 day, log Your subscription expires within a day! Renew now and save 20%!
+* if days is 0, log Your subscription has expired.
+*/
+
+int daysUntilExpiration = 0;
+int discountPercentage = 0;
+Random days_left = new();
+daysUntilExpiration = days_left.Next(12);
+
+Console.WriteLine(daysUntilExpiration);
+
+
+if (daysUntilExpiration == 0)
 {
-    Console.WriteLine($"Congrats! you won a {firstPrice}");
+    Console.WriteLine("Your subscription has expired.");
 }
-else if (total >= 10)
+else if (daysUntilExpiration == 1)
 {
-    Console.WriteLine($"Congrats! you won a {secondPrice}");
+    discountPercentage = 20;
+    Console.WriteLine($"Your subscription expires within a day!");
 }
-else if (total == 7)
+else if (daysUntilExpiration <= 5)
 {
-    Console.WriteLine($"Congrats! you won a {thirdPrice}");
+    discountPercentage = 10;
+    Console.WriteLine($"Your subscription expires in {daysUntilExpiration} days.");
 }
-else
+else if (daysUntilExpiration <= 10)
 {
-    Console.WriteLine($"Congrats! you won a {fourthPrice}");
+    Console.WriteLine("Your subscription will expire soon. Renew now!");
+}
+
+
+if (discountPercentage > 0)
+{
+    Console.WriteLine($"Renew now and save {discountPercentage}%!");
 }
