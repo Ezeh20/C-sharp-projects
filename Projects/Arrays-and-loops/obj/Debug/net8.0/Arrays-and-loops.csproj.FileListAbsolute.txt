@@ -1,0 +1,15 @@
+C:\Users\buchi\Desktop\C#\Projects\Arrays-and-loops\obj\Debug\net8.0\Arrays-and-loops.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buchi\Desktop\C#\Projects\Arrays-and-loops\obj\Debug\net8.0\Arrays-and-loops.AssemblyInfoInputs.cache
+C:\Users\buchi\Desktop\C#\Projects\Arrays-and-loops\obj\Debug\net8.0\Arrays-and-loops.AssemblyInfo.cs
+C:\Users\buchi\Desktop\C#\Projects\Arrays-and-loops\obj\Debug\net8.0\Arrays-and-loops.csproj.CoreCompileInputs.cache
+C:\Users\buchi\Desktop\C#\Projects\Arrays-and-loops\obj\Debug\net8.0\Arrays-and-loops.sourcelink.json
+C:\Users\buchi\Desktop\C#\Projects\Arrays-and-loops\bin\Debug\net8.0\Arrays-and-loops.exe
+C:\Users\buchi\Desktop\C#\Projects\Arrays-and-loops\bin\Debug\net8.0\Arrays-and-loops.deps.json
+C:\Users\buchi\Desktop\C#\Projects\Arrays-and-loops\bin\Debug\net8.0\Arrays-and-loops.runtimeconfig.json
+C:\Users\buchi\Desktop\C#\Projects\Arrays-and-loops\bin\Debug\net8.0\Arrays-and-loops.dll
+C:\Users\buchi\Desktop\C#\Projects\Arrays-and-loops\bin\Debug\net8.0\Arrays-and-loops.pdb
+C:\Users\buchi\Desktop\C#\Projects\Arrays-and-loops\obj\Debug\net8.0\Arrays-and-loops.dll
+C:\Users\buchi\Desktop\C#\Projects\Arrays-and-loops\obj\Debug\net8.0\refint\Arrays-and-loops.dll
+C:\Users\buchi\Desktop\C#\Projects\Arrays-and-loops\obj\Debug\net8.0\Arrays-and-loops.pdb
+C:\Users\buchi\Desktop\C#\Projects\Arrays-and-loops\obj\Debug\net8.0\Arrays-and-loops.genruntimeconfig.cache
+C:\Users\buchi\Desktop\C#\Projects\Arrays-and-loops\obj\Debug\net8.0\ref\Arrays-and-loops.dll
