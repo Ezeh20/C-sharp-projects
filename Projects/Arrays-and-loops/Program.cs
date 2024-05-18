@@ -24,4 +24,4 @@ foreach (int age in ages)
     total += age;
 }
 Console.WriteLine($"The total age of students is {total}");
-Console.WriteLine($"There are {users.Length} fraudulent others ");
+Console.WriteLine($"There are {users.Length} fraudulent orders ");
