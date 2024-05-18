@@ -4,5 +4,8 @@ string[] users = new string[3];
 users[0] = "Ezeh";
 users[1] = "Ade";
 users[2] = "Cole";
+users[0] = "Buchi";
 
-Console.WriteLine(users[0]);
+string[] users2 = { "Ade", "Tobi", "Kelechi" };
+
+Console.WriteLine(users2[2]);
