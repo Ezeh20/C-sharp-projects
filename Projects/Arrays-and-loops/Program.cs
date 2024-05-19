@@ -1,4 +1,5 @@
 ﻿//declare an array of string with a length of 3
+
 string[] users = new string[3];
 
 users[0] = "Ezeh";
@@ -15,13 +16,17 @@ foreach (string job in jobs)
     Console.WriteLine(job);
 }
 
-int[] ages = { 30, 50, 26, 27, 30 };
-int total = 0;
+//Get the total inventory of a store while giving live updates on each bin and the running total
+int[] inventory = { 30, 50, 26, 27, 30 };
+int sum = 0;
+int bin = 0;
 
-//sum of ages
-foreach (int age in ages)
+foreach (int item in inventory)
 {
-    total += age;
+    sum += item;
+    bin++;
+    Console.WriteLine($"Bin {bin} = {item} items (Running total: {sum})");
 }
-Console.WriteLine($"The total age of students is {total}");
-Console.WriteLine($"There are {users.Length} fraudulent orders ");
+
+Console.WriteLine($"The are {sum} items in the store");
+Console.WriteLine($"There are {users.Length} fraudulent orders");
