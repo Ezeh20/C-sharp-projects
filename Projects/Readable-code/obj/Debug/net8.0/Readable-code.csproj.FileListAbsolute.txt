@@ -1,0 +1,15 @@
+C:\Users\buchi\Desktop\C#\Projects\Readable-code\bin\Debug\net8.0\Readable-code.exe
+C:\Users\buchi\Desktop\C#\Projects\Readable-code\bin\Debug\net8.0\Readable-code.deps.json
+C:\Users\buchi\Desktop\C#\Projects\Readable-code\bin\Debug\net8.0\Readable-code.runtimeconfig.json
+C:\Users\buchi\Desktop\C#\Projects\Readable-code\bin\Debug\net8.0\Readable-code.dll
+C:\Users\buchi\Desktop\C#\Projects\Readable-code\bin\Debug\net8.0\Readable-code.pdb
+C:\Users\buchi\Desktop\C#\Projects\Readable-code\obj\Debug\net8.0\Readable-code.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buchi\Desktop\C#\Projects\Readable-code\obj\Debug\net8.0\Readable-code.AssemblyInfoInputs.cache
+C:\Users\buchi\Desktop\C#\Projects\Readable-code\obj\Debug\net8.0\Readable-code.AssemblyInfo.cs
+C:\Users\buchi\Desktop\C#\Projects\Readable-code\obj\Debug\net8.0\Readable-code.csproj.CoreCompileInputs.cache
+C:\Users\buchi\Desktop\C#\Projects\Readable-code\obj\Debug\net8.0\Readable-code.sourcelink.json
+C:\Users\buchi\Desktop\C#\Projects\Readable-code\obj\Debug\net8.0\Readable-code.dll
+C:\Users\buchi\Desktop\C#\Projects\Readable-code\obj\Debug\net8.0\refint\Readable-code.dll
+C:\Users\buchi\Desktop\C#\Projects\Readable-code\obj\Debug\net8.0\Readable-code.pdb
+C:\Users\buchi\Desktop\C#\Projects\Readable-code\obj\Debug\net8.0\Readable-code.genruntimeconfig.cache
+C:\Users\buchi\Desktop\C#\Projects\Readable-code\obj\Debug\net8.0\ref\Readable-code.dll
