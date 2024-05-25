@@ -1,0 +1,15 @@
+C:\Users\buchi\Desktop\C#\Projects\Array-Structures\obj\Debug\net8.0\Array-Structures.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buchi\Desktop\C#\Projects\Array-Structures\obj\Debug\net8.0\Array-Structures.AssemblyInfoInputs.cache
+C:\Users\buchi\Desktop\C#\Projects\Array-Structures\obj\Debug\net8.0\Array-Structures.AssemblyInfo.cs
+C:\Users\buchi\Desktop\C#\Projects\Array-Structures\obj\Debug\net8.0\Array-Structures.csproj.CoreCompileInputs.cache
+C:\Users\buchi\Desktop\C#\Projects\Array-Structures\obj\Debug\net8.0\Array-Structures.sourcelink.json
+C:\Users\buchi\Desktop\C#\Projects\Array-Structures\bin\Debug\net8.0\Array-Structures.exe
+C:\Users\buchi\Desktop\C#\Projects\Array-Structures\bin\Debug\net8.0\Array-Structures.deps.json
+C:\Users\buchi\Desktop\C#\Projects\Array-Structures\bin\Debug\net8.0\Array-Structures.runtimeconfig.json
+C:\Users\buchi\Desktop\C#\Projects\Array-Structures\bin\Debug\net8.0\Array-Structures.dll
+C:\Users\buchi\Desktop\C#\Projects\Array-Structures\bin\Debug\net8.0\Array-Structures.pdb
+C:\Users\buchi\Desktop\C#\Projects\Array-Structures\obj\Debug\net8.0\Array-Structures.dll
+C:\Users\buchi\Desktop\C#\Projects\Array-Structures\obj\Debug\net8.0\refint\Array-Structures.dll
+C:\Users\buchi\Desktop\C#\Projects\Array-Structures\obj\Debug\net8.0\Array-Structures.pdb
+C:\Users\buchi\Desktop\C#\Projects\Array-Structures\obj\Debug\net8.0\Array-Structures.genruntimeconfig.cache
+C:\Users\buchi\Desktop\C#\Projects\Array-Structures\obj\Debug\net8.0\ref\Array-Structures.dll
