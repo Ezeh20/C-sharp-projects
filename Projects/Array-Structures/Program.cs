@@ -14,6 +14,9 @@ Console.WriteLine("Student\t\tGrade\n");
 foreach (string studentName in studentNames)
 {
     string currentStudent = studentName;
+    int studentSum = 0;
+    int studentScore = 0;
+    string studentGrade;
 
     if (currentStudent == "Sophia")
         studentScores = sophiaScores;
@@ -24,11 +27,38 @@ foreach (string studentName in studentNames)
     else if (currentStudent == "Logan")
         studentScores = loganScores;
 
-    int studentSum = 0;
-    int studentGrade = 0;
     foreach (int score in studentScores)
     {
         studentSum += score;
     }
-    Console.WriteLine($"{currentStudent}\t\t{(decimal)studentSum / currentAssignments}");
+    studentScore = (decimal)studentSum / currentAssignments;
+
+    if (studentScore >= 97)
+        studentGrade = "A+";
+    else if (studentGrade >= 93)
+        studentGrade = "A";
+    else if (studentScore >= 90)
+        studentGrade = "A-";
+    else if (studentScore >= 87)
+        studentGrade = "B+";
+    else if (studentScore >= 83)
+        studentGrade = "B";
+    else if (studentScore >= 80)
+        studentGrade = "B-";
+    else if (studentScore >= 77)
+        studentGrade = "C+";
+    else if (studentScore >= 73)
+        studentGrade = "C";
+    else if (studentScore >= 70)
+        studentGrade = "C-";
+    else if (studentScore >= 67)
+        studentGrade = "D+";
+    else if (studentScore >= 63)
+        studentGrade = "D";
+    else if (studentScore >= 60)
+        studentGrade = "D-";
+    else
+    studentGrade ="F";
+
+    Console.WriteLine($"{currentStudent}\t\t{studentGrade}");
 }
