@@ -1,15 +1,35 @@
-﻿int currentAssignments = 5;
+﻿
+
+int currentAssignments = 5;
 
 int[] sophiaScores = new int[] { 90, 86, 87, 98, 100, 94, 90 };
 int[] andrewScores = new int[] { 92, 89, 81, 96, 90, 89 };
 int[] emmaScores = new int[] { 90, 85, 87, 98, 68, 89, 89, 89 };
 int[] loganScores = new int[] { 90, 95, 87, 88, 96, 96 };
 
+int[] targets = { 1, 2, 3, 4, 5, 6, 0, 8, 9 };
+int totalSum = 0;
+bool found = false;
 string[] studentNames = new string[] { "Sophia", "Andrew", "Emma", "Logan" };
 
 int[] studentScores = new int[10];
 string studentGrade;
 
+for (int i = 0; i < targets.Length; i++)
+{
+    totalSum += i;
+    if (targets[i] == 7)
+    {
+        found = true;
+        Console.WriteLine($"The target {targets[i]} has been found");
+        break;
+    }
+    else if (!found)
+    {
+        Console.WriteLine($"The target was not found");
+    }
+}
+Console.WriteLine(totalSum);
 Console.WriteLine("Student\t\tGrade\n");
 
 foreach (string studentName in studentNames)
