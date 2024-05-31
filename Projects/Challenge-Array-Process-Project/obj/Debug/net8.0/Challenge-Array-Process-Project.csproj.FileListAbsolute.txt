@@ -1,0 +1,15 @@
+C:\Users\buchi\Desktop\C#\Projects\Challenge-Array-Process-Project\bin\Debug\net8.0\Challenge-Array-Process-Project.exe
+C:\Users\buchi\Desktop\C#\Projects\Challenge-Array-Process-Project\bin\Debug\net8.0\Challenge-Array-Process-Project.deps.json
+C:\Users\buchi\Desktop\C#\Projects\Challenge-Array-Process-Project\bin\Debug\net8.0\Challenge-Array-Process-Project.runtimeconfig.json
+C:\Users\buchi\Desktop\C#\Projects\Challenge-Array-Process-Project\bin\Debug\net8.0\Challenge-Array-Process-Project.dll
+C:\Users\buchi\Desktop\C#\Projects\Challenge-Array-Process-Project\bin\Debug\net8.0\Challenge-Array-Process-Project.pdb
+C:\Users\buchi\Desktop\C#\Projects\Challenge-Array-Process-Project\obj\Debug\net8.0\Challenge-Array-Process-Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buchi\Desktop\C#\Projects\Challenge-Array-Process-Project\obj\Debug\net8.0\Challenge-Array-Process-Project.AssemblyInfoInputs.cache
+C:\Users\buchi\Desktop\C#\Projects\Challenge-Array-Process-Project\obj\Debug\net8.0\Challenge-Array-Process-Project.AssemblyInfo.cs
+C:\Users\buchi\Desktop\C#\Projects\Challenge-Array-Process-Project\obj\Debug\net8.0\Challenge-Array-Process-Project.csproj.CoreCompileInputs.cache
+C:\Users\buchi\Desktop\C#\Projects\Challenge-Array-Process-Project\obj\Debug\net8.0\Challenge-Array-Process-Project.sourcelink.json
+C:\Users\buchi\Desktop\C#\Projects\Challenge-Array-Process-Project\obj\Debug\net8.0\Challenge-Array-Process-Project.dll
+C:\Users\buchi\Desktop\C#\Projects\Challenge-Array-Process-Project\obj\Debug\net8.0\refint\Challenge-Array-Process-Project.dll
+C:\Users\buchi\Desktop\C#\Projects\Challenge-Array-Process-Project\obj\Debug\net8.0\Challenge-Array-Process-Project.pdb
+C:\Users\buchi\Desktop\C#\Projects\Challenge-Array-Process-Project\obj\Debug\net8.0\Challenge-Array-Process-Project.genruntimeconfig.cache
+C:\Users\buchi\Desktop\C#\Projects\Challenge-Array-Process-Project\obj\Debug\net8.0\ref\Challenge-Array-Process-Project.dll
