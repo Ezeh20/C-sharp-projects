@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Challenge-Array-Process-Project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88c301f29218321fb66f9fb4dd99226e21c10b6b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c26d8b246d12e3d674e2b82b092524a9d95bc3f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Challenge-Array-Process-Project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Challenge-Array-Process-Project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

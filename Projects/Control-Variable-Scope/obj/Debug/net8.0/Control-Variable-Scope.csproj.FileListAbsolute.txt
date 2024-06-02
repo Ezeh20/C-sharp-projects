@@ -1,0 +1,15 @@
+C:\Users\buchi\Desktop\C#\Projects\Control-Variable-Scope\obj\Debug\net8.0\Control-Variable-Scope.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buchi\Desktop\C#\Projects\Control-Variable-Scope\obj\Debug\net8.0\Control-Variable-Scope.AssemblyInfoInputs.cache
+C:\Users\buchi\Desktop\C#\Projects\Control-Variable-Scope\obj\Debug\net8.0\Control-Variable-Scope.AssemblyInfo.cs
+C:\Users\buchi\Desktop\C#\Projects\Control-Variable-Scope\obj\Debug\net8.0\Control-Variable-Scope.csproj.CoreCompileInputs.cache
+C:\Users\buchi\Desktop\C#\Projects\Control-Variable-Scope\obj\Debug\net8.0\Control-Variable-Scope.sourcelink.json
+C:\Users\buchi\Desktop\C#\Projects\Control-Variable-Scope\bin\Debug\net8.0\Control-Variable-Scope.exe
+C:\Users\buchi\Desktop\C#\Projects\Control-Variable-Scope\bin\Debug\net8.0\Control-Variable-Scope.deps.json
+C:\Users\buchi\Desktop\C#\Projects\Control-Variable-Scope\bin\Debug\net8.0\Control-Variable-Scope.runtimeconfig.json
+C:\Users\buchi\Desktop\C#\Projects\Control-Variable-Scope\bin\Debug\net8.0\Control-Variable-Scope.dll
+C:\Users\buchi\Desktop\C#\Projects\Control-Variable-Scope\bin\Debug\net8.0\Control-Variable-Scope.pdb
+C:\Users\buchi\Desktop\C#\Projects\Control-Variable-Scope\obj\Debug\net8.0\Control-Variable-Scope.dll
+C:\Users\buchi\Desktop\C#\Projects\Control-Variable-Scope\obj\Debug\net8.0\refint\Control-Variable-Scope.dll
+C:\Users\buchi\Desktop\C#\Projects\Control-Variable-Scope\obj\Debug\net8.0\Control-Variable-Scope.pdb
+C:\Users\buchi\Desktop\C#\Projects\Control-Variable-Scope\obj\Debug\net8.0\Control-Variable-Scope.genruntimeconfig.cache
+C:\Users\buchi\Desktop\C#\Projects\Control-Variable-Scope\obj\Debug\net8.0\ref\Control-Variable-Scope.dll

@@ -4,6 +4,8 @@ The final results prints the student's name, score, grade and extra credit sore
 The programm should also show the effect the extra credit on the student's final score
 */
 
+
+
 int examAssignments = 5;
 
 string[] studentNames = new string[] { "Sophia", "Andrew", "Emma", "Logan" };
@@ -48,6 +50,7 @@ foreach (string student in studentNames)
     {
         studentScore = loganScores;
     }
+
 
     //To get the main exam score, add the first 5 scores.
     for (int i = 0; i < studentScore.Length; i++)
