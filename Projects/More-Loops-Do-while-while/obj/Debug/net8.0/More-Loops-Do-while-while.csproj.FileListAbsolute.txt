@@ -1,0 +1,15 @@
+C:\Users\buchi\Desktop\C#\Projects\More-Loops-Do-while-while\bin\Debug\net8.0\More-Loops-Do-while-while.exe
+C:\Users\buchi\Desktop\C#\Projects\More-Loops-Do-while-while\bin\Debug\net8.0\More-Loops-Do-while-while.deps.json
+C:\Users\buchi\Desktop\C#\Projects\More-Loops-Do-while-while\bin\Debug\net8.0\More-Loops-Do-while-while.runtimeconfig.json
+C:\Users\buchi\Desktop\C#\Projects\More-Loops-Do-while-while\bin\Debug\net8.0\More-Loops-Do-while-while.dll
+C:\Users\buchi\Desktop\C#\Projects\More-Loops-Do-while-while\bin\Debug\net8.0\More-Loops-Do-while-while.pdb
+C:\Users\buchi\Desktop\C#\Projects\More-Loops-Do-while-while\obj\Debug\net8.0\More-Loops-Do-while-while.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buchi\Desktop\C#\Projects\More-Loops-Do-while-while\obj\Debug\net8.0\More-Loops-Do-while-while.AssemblyInfoInputs.cache
+C:\Users\buchi\Desktop\C#\Projects\More-Loops-Do-while-while\obj\Debug\net8.0\More-Loops-Do-while-while.AssemblyInfo.cs
+C:\Users\buchi\Desktop\C#\Projects\More-Loops-Do-while-while\obj\Debug\net8.0\More-Loops-Do-while-while.csproj.CoreCompileInputs.cache
+C:\Users\buchi\Desktop\C#\Projects\More-Loops-Do-while-while\obj\Debug\net8.0\More-Loops-Do-while-while.sourcelink.json
+C:\Users\buchi\Desktop\C#\Projects\More-Loops-Do-while-while\obj\Debug\net8.0\More-Loops-Do-while-while.dll
+C:\Users\buchi\Desktop\C#\Projects\More-Loops-Do-while-while\obj\Debug\net8.0\refint\More-Loops-Do-while-while.dll
+C:\Users\buchi\Desktop\C#\Projects\More-Loops-Do-while-while\obj\Debug\net8.0\More-Loops-Do-while-while.pdb
+C:\Users\buchi\Desktop\C#\Projects\More-Loops-Do-while-while\obj\Debug\net8.0\More-Loops-Do-while-while.genruntimeconfig.cache
+C:\Users\buchi\Desktop\C#\Projects\More-Loops-Do-while-while\obj\Debug\net8.0\ref\More-Loops-Do-while-while.dll
