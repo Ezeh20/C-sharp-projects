@@ -26,7 +26,7 @@ int attack = random.Next(1, 11);
 int heroHealth = 10;
 int monstersHealth = 10;
 
-while ((heroHealth >= 0) && (monstersHealth >= 0))
+while ((heroHealth > 0) && (monstersHealth > 0))
 {
     attack = random.Next(1, 11);
     monstersHealth = monstersHealth - attack;
