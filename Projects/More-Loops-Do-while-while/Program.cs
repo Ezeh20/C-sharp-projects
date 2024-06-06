@@ -24,23 +24,31 @@ Random random = new();
 
 int attack = random.Next(1, 11);
 int heroHealth = 10;
-int heroDamage = 0;
 int monstersHealth = 10;
-int monsterDamage = 0;
 
 while ((heroHealth >= 0) && (monstersHealth >= 0))
 {
     attack = random.Next(1, 11);
-    monsterDamage = monstersHealth - attack;
-    monstersHealth = monsterDamage;
+    monstersHealth = monstersHealth - attack;
+
     Console.WriteLine(
         $"Monster was damaged and lost {attack} health and now has {monstersHealth} health."
     );
+    if (monstersHealth <= 0)
+    {
+        Console.WriteLine("Hero wins");
+        break;
+    }
 
     attack = random.Next(1, 11);
-    heroDamage = heroHealth - attack;
-    heroHealth = heroDamage;
+    heroHealth = heroHealth - attack;
+
     Console.WriteLine(
         $"Hero was damaged and lost {attack} health and now has {heroHealth} health."
     );
+    if (heroHealth <= 0)
+    {
+        Console.WriteLine("Monster wins");
+        break;
+    }
 }
