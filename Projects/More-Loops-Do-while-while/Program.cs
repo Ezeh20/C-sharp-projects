@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 // Random number = new();
 // int current = number.Next(1, 11);
@@ -111,3 +112,33 @@ do
 } while (validInput == false);
 
 Console.WriteLine($"Your input {userValidateValue} has been accepted");
+
+//Code 2; a code that validates string input
+
+string? userInput2;
+bool validInput2 = false;
+string[] roles = { "Administrator", "Manager", "User" };
+
+Console.WriteLine("Enter your role name (Administrator, Manager, or User)");
+
+do
+{
+    userInput2 = Console.ReadLine();
+    if (userInput2 != null)
+    {
+        string[] lowerCaseRole = roles.Select(role => role.ToLower()).ToArray();
+        if (lowerCaseRole.Contains(userInput2.Trim().ToLower()))
+        {
+            validInput2 = true;
+            break;
+        }
+        else
+        {
+            Console.WriteLine(
+                $"The role name that you entered, {userInput2} is not valid. Enter your role name (Administrator, Manager, or User)"
+            );
+        }
+    }
+} while (validInput2 == false);
+
+Console.WriteLine($"Your input value ({userInput2.Trim()}) has been accepted.");
