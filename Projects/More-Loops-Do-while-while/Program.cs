@@ -20,35 +20,94 @@
 
 // Console.WriteLine($"Last number : {current}");
 
-Random random = new();
+// Random random = new();
 
-int attack = random.Next(1, 11);
-int heroHealth = 10;
-int monstersHealth = 10;
+// int attack = random.Next(1, 11);
+// int heroHealth = 10;
+// int monstersHealth = 10;
 
-while ((heroHealth > 0) && (monstersHealth > 0))
+// while ((heroHealth > 0) && (monstersHealth > 0))
+// {
+//     attack = random.Next(1, 11);
+//     monstersHealth = monstersHealth - attack;
+
+//     Console.WriteLine(
+//         $"Monster was damaged and lost {attack} health and now has {monstersHealth} health."
+//     );
+//     if (monstersHealth <= 0)
+//     {
+//         Console.WriteLine("Hero wins");
+//         break;
+//     }
+
+//     attack = random.Next(1, 11);
+//     heroHealth = heroHealth - attack;
+
+//     Console.WriteLine(
+//         $"Hero was damaged and lost {attack} health and now has {heroHealth} health."
+//     );
+//     if (heroHealth <= 0)
+//     {
+//         Console.WriteLine("Monster wins");
+//         break;
+//     }
+// }
+
+// string? userInput;
+// bool validInput = false;
+
+// Console.WriteLine("Enter a word > 3");
+// do
+// {
+//     userInput = Console.ReadLine();
+
+//     if (userInput != null)
+//     {
+//         if (userInput.Length > 3)
+//         {
+//             validInput = true;
+//             Console.WriteLine("Thankyou");
+//             continue;
+//         }
+//         else
+//         {
+//             Console.WriteLine("You entered an invalid input");
+//         }
+//     }
+// } while (validInput == false);
+
+
+
+//Code 1, This validates user's input which must be between 5 and 10
+
+string? userInput;
+int userValidateValue = 0;
+bool validInput = false;
+
+Console.WriteLine("Enter a value between 5 and 10.");
+
+do
 {
-    attack = random.Next(1, 11);
-    monstersHealth = monstersHealth - attack;
+    userInput = Console.ReadLine();
+    validInput = int.TryParse(userInput, out userValidateValue);
 
-    Console.WriteLine(
-        $"Monster was damaged and lost {attack} health and now has {monstersHealth} health."
-    );
-    if (monstersHealth <= 0)
+    if (validInput == true)
     {
-        Console.WriteLine("Hero wins");
-        break;
+        if (userValidateValue < 5 || userValidateValue > 10)
+        {
+            Console.WriteLine("The number must be between 5 and 10");
+            validInput = false;
+        }
+        else if ((userValidateValue >= 5) && (userValidateValue <= 10))
+        {
+            validInput = true;
+            continue;
+        }
     }
-
-    attack = random.Next(1, 11);
-    heroHealth = heroHealth - attack;
-
-    Console.WriteLine(
-        $"Hero was damaged and lost {attack} health and now has {heroHealth} health."
-    );
-    if (heroHealth <= 0)
+    else
     {
-        Console.WriteLine("Monster wins");
-        break;
+        Console.WriteLine("You have entered an invalid number, try again");
     }
-}
+} while (validInput == false);
+
+Console.WriteLine($"Your input {userValidateValue} has been accepted");
