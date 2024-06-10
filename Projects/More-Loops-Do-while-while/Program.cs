@@ -1,81 +1,81 @@
 ﻿using System;
 using System.Linq;
 
-// Random number = new();
-// int current = number.Next(1, 11);
+Random number = new();
+int current = number.Next(1, 11);
 
-// do
-// {
-//     current = number.Next(1, 11);
-//     if (current >= 8)
-//         continue;
-//     Console.WriteLine(current);
-// } while (current != 10);
+do
+{
+    current = number.Next(1, 11);
+    if (current >= 8)
+        continue;
+    Console.WriteLine(current);
+} while (current != 10);
 
 
-// while (current >= 3)
-// {
-//     Console.WriteLine(current);
-//     current = number.Next(1, 11);
-// }
+while (current >= 3)
+{
+    Console.WriteLine(current);
+    current = number.Next(1, 11);
+}
 
-// Console.WriteLine($"Last number : {current}");
+Console.WriteLine($"Last number : {current}");
 
-// Random random = new();
+Random random = new();
 
-// int attack = random.Next(1, 11);
-// int heroHealth = 10;
-// int monstersHealth = 10;
+int attack = random.Next(1, 11);
+int heroHealth = 10;
+int monstersHealth = 10;
 
-// while ((heroHealth > 0) && (monstersHealth > 0))
-// {
-//     attack = random.Next(1, 11);
-//     monstersHealth = monstersHealth - attack;
+while ((heroHealth > 0) && (monstersHealth > 0))
+{
+    attack = random.Next(1, 11);
+    monstersHealth = monstersHealth - attack;
 
-//     Console.WriteLine(
-//         $"Monster was damaged and lost {attack} health and now has {monstersHealth} health."
-//     );
-//     if (monstersHealth <= 0)
-//     {
-//         Console.WriteLine("Hero wins");
-//         break;
-//     }
+    Console.WriteLine(
+        $"Monster was damaged and lost {attack} health and now has {monstersHealth} health."
+    );
+    if (monstersHealth <= 0)
+    {
+        Console.WriteLine("Hero wins");
+        break;
+    }
 
-//     attack = random.Next(1, 11);
-//     heroHealth = heroHealth - attack;
+    attack = random.Next(1, 11);
+    heroHealth = heroHealth - attack;
 
-//     Console.WriteLine(
-//         $"Hero was damaged and lost {attack} health and now has {heroHealth} health."
-//     );
-//     if (heroHealth <= 0)
-//     {
-//         Console.WriteLine("Monster wins");
-//         break;
-//     }
-// }
+    Console.WriteLine(
+        $"Hero was damaged and lost {attack} health and now has {heroHealth} health."
+    );
+    if (heroHealth <= 0)
+    {
+        Console.WriteLine("Monster wins");
+        break;
+    }
+}
 
-// string? userInput;
-// bool validInput = false;
+string? userInput;
+bool validInput = false;
 
-// Console.WriteLine("Enter a word > 3");
-// do
-// {
-//     userInput = Console.ReadLine();
+Console.WriteLine("Enter a word > 3");
+do
+{
+    userInput = Console.ReadLine();
 
-//     if (userInput != null)
-//     {
-//         if (userInput.Length > 3)
-//         {
-//             validInput = true;
-//             Console.WriteLine("Thankyou");
-//             continue;
-//         }
-//         else
-//         {
-//             Console.WriteLine("You entered an invalid input");
-//         }
-//     }
-// } while (validInput == false);
+    if (userInput != null)
+    {
+        if (userInput.Length > 3)
+        {
+            validInput = true;
+            Console.WriteLine("Thankyou");
+            continue;
+        }
+        else
+        {
+            Console.WriteLine("You entered an invalid input");
+        }
+    }
+} while (validInput == false);
 
 
 
@@ -118,7 +118,6 @@ Console.WriteLine($"Your input {userValidateValue} has been accepted");
 string? userInput2;
 bool validInput2 = false;
 string[] roles = { "Administrator", "Manager", "User" };
-
 Console.WriteLine("Enter your role name (Administrator, Manager, or User)");
 
 do
@@ -130,7 +129,7 @@ do
         if (lowerCaseRole.Contains(userInput2.Trim().ToLower()))
         {
             validInput2 = true;
-            break;
+            continue;
         }
         else
         {
@@ -142,3 +141,7 @@ do
 } while (validInput2 == false);
 
 Console.WriteLine($"Your input value ({userInput2.Trim()}) has been accepted.");
+
+
+
+

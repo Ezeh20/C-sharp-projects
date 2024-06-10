@@ -1,0 +1,15 @@
+C:\Users\buchi\Desktop\C#\Projects\Conditional-Branching-And-Looping-Structures\bin\Debug\net8.0\Conditional-Branching-And-Looping-Structures.exe
+C:\Users\buchi\Desktop\C#\Projects\Conditional-Branching-And-Looping-Structures\bin\Debug\net8.0\Conditional-Branching-And-Looping-Structures.deps.json
+C:\Users\buchi\Desktop\C#\Projects\Conditional-Branching-And-Looping-Structures\bin\Debug\net8.0\Conditional-Branching-And-Looping-Structures.runtimeconfig.json
+C:\Users\buchi\Desktop\C#\Projects\Conditional-Branching-And-Looping-Structures\bin\Debug\net8.0\Conditional-Branching-And-Looping-Structures.dll
+C:\Users\buchi\Desktop\C#\Projects\Conditional-Branching-And-Looping-Structures\bin\Debug\net8.0\Conditional-Branching-And-Looping-Structures.pdb
+C:\Users\buchi\Desktop\C#\Projects\Conditional-Branching-And-Looping-Structures\obj\Debug\net8.0\Conditional-Branching-And-Looping-Structures.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buchi\Desktop\C#\Projects\Conditional-Branching-And-Looping-Structures\obj\Debug\net8.0\Conditional-Branching-And-Looping-Structures.AssemblyInfoInputs.cache
+C:\Users\buchi\Desktop\C#\Projects\Conditional-Branching-And-Looping-Structures\obj\Debug\net8.0\Conditional-Branching-And-Looping-Structures.AssemblyInfo.cs
+C:\Users\buchi\Desktop\C#\Projects\Conditional-Branching-And-Looping-Structures\obj\Debug\net8.0\Conditional-Branching-And-Looping-Structures.csproj.CoreCompileInputs.cache
+C:\Users\buchi\Desktop\C#\Projects\Conditional-Branching-And-Looping-Structures\obj\Debug\net8.0\Conditional-Branching-And-Looping-Structures.sourcelink.json
+C:\Users\buchi\Desktop\C#\Projects\Conditional-Branching-And-Looping-Structures\obj\Debug\net8.0\Conditional-Branching-And-Looping-Structures.dll
+C:\Users\buchi\Desktop\C#\Projects\Conditional-Branching-And-Looping-Structures\obj\Debug\net8.0\refint\Conditional-Branching-And-Looping-Structures.dll
+C:\Users\buchi\Desktop\C#\Projects\Conditional-Branching-And-Looping-Structures\obj\Debug\net8.0\Conditional-Branching-And-Looping-Structures.pdb
+C:\Users\buchi\Desktop\C#\Projects\Conditional-Branching-And-Looping-Structures\obj\Debug\net8.0\Conditional-Branching-And-Looping-Structures.genruntimeconfig.cache
+C:\Users\buchi\Desktop\C#\Projects\Conditional-Branching-And-Looping-Structures\obj\Debug\net8.0\ref\Conditional-Branching-And-Looping-Structures.dll
