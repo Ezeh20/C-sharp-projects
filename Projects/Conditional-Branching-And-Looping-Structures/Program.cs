@@ -86,6 +86,7 @@ do
     Console.WriteLine();
     Console.WriteLine("Enter your selection number (or type Exit to exit the program)");
     readResult = Console.ReadLine();
+    Console.WriteLine();
 
     if (readResult != null)
     {
@@ -94,7 +95,6 @@ do
     switch (menuSelection)
     {
         case "1":
-
             for (int i = 0; i < maxPets; i++)
             {
                 if (ourAnimals[i, 0] != "ID #: ")
@@ -110,11 +110,53 @@ do
             readResult = Console.ReadLine();
             break;
         case "2":
-            Console.WriteLine(
-                "this app feature is coming soon - please check back to see progress."
-            );
-            Console.WriteLine("Press the Enter key to continue.");
-            readResult = Console.ReadLine();
+            int petCount = 0;
+            string anotherPet = "y";
+            string petText = "pet";
+            for (int i = 0; i < maxPets; i++)
+            {
+                if (ourAnimals[i, 0] != "ID #: ")
+                {
+                    petCount += 1;
+                }
+            }
+            if (petCount > 1)
+            {
+                petText = "pets";
+            }
+
+            if (petCount < maxPets)
+            {
+                Console.WriteLine(
+                    $"We currently have {petCount} {petText} to fill your home. We can take {(maxPets - petCount)} more"
+                );
+            }
+            while (anotherPet == "y" && petCount < maxPets)
+            {
+                petCount += 1;
+
+                if (petCount < maxPets)
+                {
+                    Console.WriteLine("Do you want to enter another pet? (Y/N).");
+                    do
+                    {
+                        readResult = Console.ReadLine();
+                        if (readResult != null)
+                        {
+                            anotherPet = readResult.ToLower();
+                        }
+                    } while (anotherPet != "y" && anotherPet != "n");
+                }
+            }
+
+            if (petCount >= maxPets)
+            {
+                Console.WriteLine(
+                    "We have reached our limit on the number of pets that we can manage."
+                );
+                Console.WriteLine("Press the Enter key to continue.");
+                readResult = Console.ReadLine();
+            }
             break;
         case "3":
             Console.WriteLine("Challenge Project - please check back soon to see progress.");
@@ -145,10 +187,6 @@ do
             Console.WriteLine("UNDER CONSTRUCTION - please check back next month to see progress.");
             Console.WriteLine("Press the Enter key to continue.");
             readResult = Console.ReadLine();
-            break;
-        default:
-            Console.WriteLine("Invalid selection.");
-            Console.WriteLine();
             break;
     }
 } while (menuSelection != "exit");
