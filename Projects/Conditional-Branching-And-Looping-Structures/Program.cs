@@ -110,9 +110,15 @@ do
             readResult = Console.ReadLine();
             break;
         case "2":
+            /**
+          - to add a new animal friend to the array, we need to know how many we have now because there is a limit
+            to what we can hold
+          - we need a parent while loop keeps asking the user if the want to add another animal as long as we have not hit the max count and the user picks y
+          - we nned a loop that ask for values to fill in the 6 attribute an animal firend should have
+          - increase the total number
+          */
             int petCount = 0;
-            string anotherPet = "y";
-            string petText = "pet";
+            string addPet = "y";
             for (int i = 0; i < maxPets; i++)
             {
                 if (ourAnimals[i, 0] != "ID #: ")
@@ -120,42 +126,37 @@ do
                     petCount += 1;
                 }
             }
-            if (petCount > 1)
-            {
-                petText = "pets";
-            }
-
-            if (petCount < maxPets)
+            if (maxPets > petCount)
             {
                 Console.WriteLine(
-                    $"We currently have {petCount} {petText} to fill your home. We can take {(maxPets - petCount)} more"
+                    $"We have {petCount} ready to be your friend and we have room for {maxPets - petCount}\n"
                 );
             }
-            while (anotherPet == "y" && petCount < maxPets)
-            {
-                petCount += 1;
 
-                if (petCount < maxPets)
+            //parent loop that resides over the user's loop entery
+            while (addPet == "y" && petCount < maxPets)
+            {
+                bool validEntry = false;
+                
+                //first loop to take pet animalSpecies
+                do
                 {
-                    Console.WriteLine("Do you want to enter another pet? (Y/N).");
-                    do
-                    {
-                        readResult = Console.ReadLine();
-                        if (readResult != null)
-                        {
-                            anotherPet = readResult.ToLower();
-                        }
-                    } while (anotherPet != "y" && anotherPet != "n");
-                }
-            }
+                    Console.WriteLine("Enter pet category to continue 'dog' or 'cat' ");
+                    readResult = Console.ReadLine();
 
-            if (petCount >= maxPets)
-            {
-                Console.WriteLine(
-                    "We have reached our limit on the number of pets that we can manage."
-                );
-                Console.WriteLine("Press the Enter key to continue.");
-                readResult = Console.ReadLine();
+                    if (readResult != null)
+                    {
+                        animalSpecies = readResult.ToLower();
+                        if ((animalSpecies != "dog") && (animalSpecies != "cat"))
+                        {
+                            validEntry = false;
+                        }
+                        else
+                        {
+                            validEntry = true;
+                        }
+                    }
+                } while (validEntry == false);
             }
             break;
         case "3":
