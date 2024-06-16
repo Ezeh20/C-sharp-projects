@@ -334,7 +334,7 @@ do
                         bool validEntry = false;
                         do
                         {
-                            Console.WriteLine($"Enter a nickname for {ourAnimals[i, 0]}");
+                            Console.WriteLine($"\nEnter a nickname for {ourAnimals[i, 0]}");
                             readResult = Console.ReadLine();
 
                             if (readResult != null)
@@ -349,10 +349,34 @@ do
                             }
                         } while (validEntry == false);
                     }
+
+                    if (ourAnimals[i, 5].Length == 13)
+                    {
+                        bool validEntry = false;
+                        do
+                        {
+                            Console.WriteLine(
+                                $"\nEnter a personality description for {ourAnimals[i, 0]} (likes or dislikes, tricks, energy level)"
+                            );
+                            readResult = Console.ReadLine();
+
+                            if (readResult != null)
+                            {
+                                animalPersonalityDescription = readResult.Trim().ToLower();
+                                ourAnimals[i, 5] = "Personality: " + animalPersonalityDescription;
+                                validEntry = true;
+                            }
+                            else
+                            {
+                                validEntry = false;
+                            }
+                        } while (validEntry == false);
+                    }
                 }
             }
-            Console.WriteLine("Challenge Project - please check back soon to see progress.");
-            Console.WriteLine("Press the Enter key to continue.");
+            Console.WriteLine(
+                "Nickname and personality description fields are complete for all of our friends.\nPress the Enter key to continue"
+            );
             readResult = Console.ReadLine();
             break;
         case "5":
