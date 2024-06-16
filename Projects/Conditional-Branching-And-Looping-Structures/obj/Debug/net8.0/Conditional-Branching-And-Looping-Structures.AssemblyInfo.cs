@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Conditional-Branching-And-Looping-Structures")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eab5918e3800d691c621c444132a0052b21c8b66")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b44c6431a9595a9a73c8af6989c7a96dce161ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("Conditional-Branching-And-Looping-Structures")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Conditional-Branching-And-Looping-Structures")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

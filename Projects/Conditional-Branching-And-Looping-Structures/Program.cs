@@ -259,8 +259,71 @@ do
             }
             break;
         case "3":
-            Console.WriteLine("Challenge Project - please check back soon to see progress.");
-            Console.WriteLine("Press the Enter key to continue.");
+            //21
+            for (int i = 0; i < maxPets; i++)
+            {
+                int validAge;
+                bool validEntry;
+                if (ourAnimals[i, 0] != "ID #: ")
+                {
+                    validEntry = int.TryParse(ourAnimals[i, 2][5].ToString(), out validAge);
+
+                    if (!validEntry)
+                    {
+                        do
+                        {
+                            Console.WriteLine($"Enter an age for {ourAnimals[i, 0]}");
+                            readResult = Console.ReadLine();
+                            if (readResult != null)
+                            {
+                                animalAge = readResult;
+                                validEntry = int.TryParse(animalAge, out validAge);
+                                if (validEntry)
+                                {
+                                    ourAnimals[i, 2] = "Age: " + validAge;
+                                }
+                            }
+                        } while (validEntry == false);
+                    }
+
+                    if (ourAnimals[i, 4].Length < 23)
+                    {
+                        bool validDes = false;
+                        do
+                        {
+                            Console.WriteLine(
+                                $"Enter a physical description for {ourAnimals[i, 0]} (size, color, gender, weight, housebroken"
+                            );
+                            readResult = Console.ReadLine();
+
+                            if (readResult != null)
+                            {
+                                animalPhysicalDescription = readResult.ToLower();
+                                if (animalPhysicalDescription.Trim().Length >= 1)
+                                {
+                                    validDes = true;
+                                    ourAnimals[i, 4] =
+                                        "Physical description: " + animalPhysicalDescription;
+                                }
+                            }
+                        } while (validDes == false);
+                    }
+                }
+            }
+            //confrim
+            for (int i = 0; i < maxPets; i++)
+            {
+                if (ourAnimals[i, 0] != "ID #: ")
+                    for (int j = 0; j < 6; j++)
+                    {
+                        Console.WriteLine($"{ourAnimals[i, j]}");
+                    }
+                Console.WriteLine();
+            }
+
+            Console.WriteLine(
+                "Age and physical description fields are complete for all of our friends.\nPress the Enter key to continue"
+            );
             readResult = Console.ReadLine();
             break;
         case "4":
