@@ -22,7 +22,7 @@ for (int i = 0; i < maxPets; i++)
         case 0:
             animalSpecies = "dog";
             animalID = "d1";
-            animalAge = "2";
+            animalAge = "?";
             animalPhysicalDescription =
                 "medium sized cream colored female golden retriever weighing about 65 pounds. housebroken.";
             animalPersonalityDescription =
@@ -43,8 +43,7 @@ for (int i = 0; i < maxPets; i++)
             animalSpecies = "cat";
             animalID = "c3";
             animalAge = "1";
-            animalPhysicalDescription =
-                "small white female weighing about 8 pounds. litter box trained.";
+            animalPhysicalDescription = "";
             animalPersonalityDescription = "friendly";
             animalNickname = "Puss";
             break;
@@ -259,7 +258,6 @@ do
             }
             break;
         case "3":
-            //21
             for (int i = 0; i < maxPets; i++)
             {
                 int validAge;
@@ -303,7 +301,7 @@ do
                                 {
                                     validDes = true;
                                     ourAnimals[i, 4] =
-                                        "Physical description: " + animalPhysicalDescription;
+                                        "Physical description: " + animalPhysicalDescription.Trim();
                                 }
                             }
                         } while (validDes == false);
@@ -327,6 +325,32 @@ do
             readResult = Console.ReadLine();
             break;
         case "4":
+            for (int i = 0; i < maxPets; i++)
+            {
+                if (ourAnimals[i, 0] != "ID #: ")
+                {
+                    if (ourAnimals[i, 3].Length == 10)
+                    {
+                        bool validEntry = false;
+                        do
+                        {
+                            Console.WriteLine($"Enter a nickname for {ourAnimals[i, 0]}");
+                            readResult = Console.ReadLine();
+
+                            if (readResult != null)
+                            {
+                                animalNickname = readResult.Trim().ToLower();
+                                ourAnimals[i, 3] = "Nickname: " + animalNickname;
+                                validEntry = true;
+                            }
+                            else
+                            {
+                                validEntry = false;
+                            }
+                        } while (validEntry == false);
+                    }
+                }
+            }
             Console.WriteLine("Challenge Project - please check back soon to see progress.");
             Console.WriteLine("Press the Enter key to continue.");
             readResult = Console.ReadLine();
