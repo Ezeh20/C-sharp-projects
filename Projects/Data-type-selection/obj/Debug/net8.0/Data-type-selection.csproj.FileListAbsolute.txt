@@ -1,0 +1,15 @@
+C:\Users\buchi\Desktop\C#\Projects\Data-type-selection\bin\Debug\net8.0\Data-type-selection.exe
+C:\Users\buchi\Desktop\C#\Projects\Data-type-selection\bin\Debug\net8.0\Data-type-selection.deps.json
+C:\Users\buchi\Desktop\C#\Projects\Data-type-selection\bin\Debug\net8.0\Data-type-selection.runtimeconfig.json
+C:\Users\buchi\Desktop\C#\Projects\Data-type-selection\bin\Debug\net8.0\Data-type-selection.dll
+C:\Users\buchi\Desktop\C#\Projects\Data-type-selection\bin\Debug\net8.0\Data-type-selection.pdb
+C:\Users\buchi\Desktop\C#\Projects\Data-type-selection\obj\Debug\net8.0\Data-type-selection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buchi\Desktop\C#\Projects\Data-type-selection\obj\Debug\net8.0\Data-type-selection.AssemblyInfoInputs.cache
+C:\Users\buchi\Desktop\C#\Projects\Data-type-selection\obj\Debug\net8.0\Data-type-selection.AssemblyInfo.cs
+C:\Users\buchi\Desktop\C#\Projects\Data-type-selection\obj\Debug\net8.0\Data-type-selection.csproj.CoreCompileInputs.cache
+C:\Users\buchi\Desktop\C#\Projects\Data-type-selection\obj\Debug\net8.0\Data-type-selection.sourcelink.json
+C:\Users\buchi\Desktop\C#\Projects\Data-type-selection\obj\Debug\net8.0\Data-type-selection.dll
+C:\Users\buchi\Desktop\C#\Projects\Data-type-selection\obj\Debug\net8.0\refint\Data-type-selection.dll
+C:\Users\buchi\Desktop\C#\Projects\Data-type-selection\obj\Debug\net8.0\Data-type-selection.pdb
+C:\Users\buchi\Desktop\C#\Projects\Data-type-selection\obj\Debug\net8.0\Data-type-selection.genruntimeconfig.cache
+C:\Users\buchi\Desktop\C#\Projects\Data-type-selection\obj\Debug\net8.0\ref\Data-type-selection.dll
