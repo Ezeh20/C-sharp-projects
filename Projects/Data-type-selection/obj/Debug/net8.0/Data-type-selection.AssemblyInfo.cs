@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Data-type-selection")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72c91cab41c27da19f84331d0256f07d0a924c14")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f41dc9c2b1caf9148281af7876c5b78e114a37a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Data-type-selection")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Data-type-selection")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
