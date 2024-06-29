@@ -1,0 +1,15 @@
+C:\Users\buchi\Desktop\C#\Projects\Array-Operations\bin\Debug\net8.0\Array-Operations.exe
+C:\Users\buchi\Desktop\C#\Projects\Array-Operations\bin\Debug\net8.0\Array-Operations.deps.json
+C:\Users\buchi\Desktop\C#\Projects\Array-Operations\bin\Debug\net8.0\Array-Operations.runtimeconfig.json
+C:\Users\buchi\Desktop\C#\Projects\Array-Operations\bin\Debug\net8.0\Array-Operations.dll
+C:\Users\buchi\Desktop\C#\Projects\Array-Operations\bin\Debug\net8.0\Array-Operations.pdb
+C:\Users\buchi\Desktop\C#\Projects\Array-Operations\obj\Debug\net8.0\Array-Operations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buchi\Desktop\C#\Projects\Array-Operations\obj\Debug\net8.0\Array-Operations.AssemblyInfoInputs.cache
+C:\Users\buchi\Desktop\C#\Projects\Array-Operations\obj\Debug\net8.0\Array-Operations.AssemblyInfo.cs
+C:\Users\buchi\Desktop\C#\Projects\Array-Operations\obj\Debug\net8.0\Array-Operations.csproj.CoreCompileInputs.cache
+C:\Users\buchi\Desktop\C#\Projects\Array-Operations\obj\Debug\net8.0\Array-Operations.sourcelink.json
+C:\Users\buchi\Desktop\C#\Projects\Array-Operations\obj\Debug\net8.0\Array-Operations.dll
+C:\Users\buchi\Desktop\C#\Projects\Array-Operations\obj\Debug\net8.0\refint\Array-Operations.dll
+C:\Users\buchi\Desktop\C#\Projects\Array-Operations\obj\Debug\net8.0\Array-Operations.pdb
+C:\Users\buchi\Desktop\C#\Projects\Array-Operations\obj\Debug\net8.0\Array-Operations.genruntimeconfig.cache
+C:\Users\buchi\Desktop\C#\Projects\Array-Operations\obj\Debug\net8.0\ref\Array-Operations.dll
