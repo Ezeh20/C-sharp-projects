@@ -1,0 +1,15 @@
+C:\Users\buchi\Desktop\C#\Projects\String-manipulation\bin\Debug\net8.0\String-manipulation.exe
+C:\Users\buchi\Desktop\C#\Projects\String-manipulation\bin\Debug\net8.0\String-manipulation.deps.json
+C:\Users\buchi\Desktop\C#\Projects\String-manipulation\bin\Debug\net8.0\String-manipulation.runtimeconfig.json
+C:\Users\buchi\Desktop\C#\Projects\String-manipulation\bin\Debug\net8.0\String-manipulation.dll
+C:\Users\buchi\Desktop\C#\Projects\String-manipulation\bin\Debug\net8.0\String-manipulation.pdb
+C:\Users\buchi\Desktop\C#\Projects\String-manipulation\obj\Debug\net8.0\String-manipulation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buchi\Desktop\C#\Projects\String-manipulation\obj\Debug\net8.0\String-manipulation.AssemblyInfoInputs.cache
+C:\Users\buchi\Desktop\C#\Projects\String-manipulation\obj\Debug\net8.0\String-manipulation.AssemblyInfo.cs
+C:\Users\buchi\Desktop\C#\Projects\String-manipulation\obj\Debug\net8.0\String-manipulation.csproj.CoreCompileInputs.cache
+C:\Users\buchi\Desktop\C#\Projects\String-manipulation\obj\Debug\net8.0\String-manipulation.sourcelink.json
+C:\Users\buchi\Desktop\C#\Projects\String-manipulation\obj\Debug\net8.0\String-manipulation.dll
+C:\Users\buchi\Desktop\C#\Projects\String-manipulation\obj\Debug\net8.0\refint\String-manipulation.dll
+C:\Users\buchi\Desktop\C#\Projects\String-manipulation\obj\Debug\net8.0\String-manipulation.pdb
+C:\Users\buchi\Desktop\C#\Projects\String-manipulation\obj\Debug\net8.0\String-manipulation.genruntimeconfig.cache
+C:\Users\buchi\Desktop\C#\Projects\String-manipulation\obj\Debug\net8.0\ref\String-manipulation.dll
