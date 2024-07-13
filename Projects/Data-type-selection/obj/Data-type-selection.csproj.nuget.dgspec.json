@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\buchi\\Desktop\\C#\\Projects\\Data-type-selection\\Data-type-selection.csproj": {}
+    "C:\\Users\\cj\\Desktop\\C-sharp-projects\\Projects\\Data-type-selection\\Data-type-selection.csproj": {}
   },
   "projects": {
-    "C:\\Users\\buchi\\Desktop\\C#\\Projects\\Data-type-selection\\Data-type-selection.csproj": {
+    "C:\\Users\\cj\\Desktop\\C-sharp-projects\\Projects\\Data-type-selection\\Data-type-selection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\buchi\\Desktop\\C#\\Projects\\Data-type-selection\\Data-type-selection.csproj",
+        "projectUniqueName": "C:\\Users\\cj\\Desktop\\C-sharp-projects\\Projects\\Data-type-selection\\Data-type-selection.csproj",
         "projectName": "Data-type-selection",
-        "projectPath": "C:\\Users\\buchi\\Desktop\\C#\\Projects\\Data-type-selection\\Data-type-selection.csproj",
-        "packagesPath": "C:\\Users\\buchi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\buchi\\Desktop\\C#\\Projects\\Data-type-selection\\obj\\",
+        "projectPath": "C:\\Users\\cj\\Desktop\\C-sharp-projects\\Projects\\Data-type-selection\\Data-type-selection.csproj",
+        "packagesPath": "C:\\Users\\cj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cj\\Desktop\\C-sharp-projects\\Projects\\Data-type-selection\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\buchi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\cj\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

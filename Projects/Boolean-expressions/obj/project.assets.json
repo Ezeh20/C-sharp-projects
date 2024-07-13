@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\buchi\\.nuget\\packages\\": {}
+    "C:\\Users\\cj\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\buchi\\Desktop\\C#\\Projects\\Boolean-expressions\\Boolean-expressions.csproj",
+      "projectUniqueName": "C:\\Users\\cj\\Desktop\\C-sharp-projects\\Projects\\Boolean-expressions\\Boolean-expressions.csproj",
       "projectName": "Boolean-expressions",
-      "projectPath": "C:\\Users\\buchi\\Desktop\\C#\\Projects\\Boolean-expressions\\Boolean-expressions.csproj",
-      "packagesPath": "C:\\Users\\buchi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\buchi\\Desktop\\C#\\Projects\\Boolean-expressions\\obj\\",
+      "projectPath": "C:\\Users\\cj\\Desktop\\C-sharp-projects\\Projects\\Boolean-expressions\\Boolean-expressions.csproj",
+      "packagesPath": "C:\\Users\\cj\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cj\\Desktop\\C-sharp-projects\\Projects\\Boolean-expressions\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\buchi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\cj\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

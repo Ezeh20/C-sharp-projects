@@ -1,82 +1,132 @@
-﻿using System;
-using System.Linq;
-
-Console.WriteLine("Signed integral types:");
-
-Console.WriteLine($"sbyte  : {sbyte.MinValue} to {sbyte.MaxValue}");
-Console.WriteLine($"short  : {short.MinValue} to {short.MaxValue}");
-Console.WriteLine($"int    : {int.MinValue} to {int.MaxValue}");
-Console.WriteLine($"long   : {long.MinValue} to {long.MaxValue}");
-
-Console.WriteLine("");
-Console.WriteLine("Unsigned integral types:");
-
-Console.WriteLine($"byte   : {byte.MinValue} to {byte.MaxValue}");
-Console.WriteLine($"ushort : {ushort.MinValue} to {ushort.MaxValue}");
-Console.WriteLine($"uint   : {uint.MinValue} to {uint.MaxValue}");
-Console.WriteLine($"ulong  : {ulong.MinValue} to {ulong.MaxValue}");
-
-// A value type stores the copy of the data in the declared variable, the stack
-// memory is used for this purpose (the values in the stack is removed after execution)
-
-// The reference type usesthe heap memory which is controlled my the device operating system
-// .Net under the hood makes an address allocation request which then points the declared variable to that address
+﻿//
 
 
 
 
-/**
-widening and narrowing are the two type of data type conversion where widening is implicit
-which can be handled by the compiler automatically and narrowing being explicit (the instruction is given to the compiler by casting the data type you want to convert to)
+string animalSpecies = "";
+string animalID = "";
+string animalAge = "";
+string animalPhysicalDescription = "";
+string animalPersonalityDescription = "";
+string animalNickname = "";
+string suggestedDonation = "";
 
-widening - trying to convert a value from a data type that holds a lesser value to a data type that may hold a higher value (value isn't lost)
-int to decimal
-float to decimal
+int maxPets = 8;
+string? readResult;
+string menuSelection = "";
+decimal decimalDonation = 0.00m;
 
-narrowing - trying to canvert a value from a data type that holds more value to a data type that holds a lesser value (value is lost)
-decimal to int
-decimal to float
+string[,] myPets = new string[maxPets, 7];
 
-eg decimal avgAge = 40.7m;
-    int final = (int) avgAge;
-*/
-int adg = 0;
-decimal age = 56.6m;
-string ll = age.ToString();
-string adl = "1";
-int add =  Convert.ToInt32(adl) * Convert.ToInt32(age);
-
-
-string[] values = { "12.3", "45", "ABC", "11", "DEF" };
-decimal valid = 0;
-string message = "";
-decimal final = 0;
-
-for (int i = 0; i < values.Length; i++)
+for (int i = 0; i < maxPets; i++)
 {
-    if (decimal.TryParse(values[i], out valid))
+    switch (i)
     {
-        final += decimal.Parse(values[i]);
+        case 0:
+            animalSpecies = "dog";
+            animalID = "d1";
+            animalAge = "2";
+            animalPhysicalDescription =
+                "medium sized cream colored female golden retriever weighing about 45 pounds. housebroken.";
+            animalPersonalityDescription =
+                "loves to have her belly rubbed and likes to chase her tail. gives lots of kisses.";
+            animalNickname = "lola";
+            suggestedDonation = "85.00";
+            break;
+        case 1:
+            animalSpecies = "dog";
+            animalID = "d2";
+            animalAge = "9";
+            animalPhysicalDescription =
+                "large reddish-brown male golden retriever weighing about 85 pounds. housebroken.";
+            animalPersonalityDescription =
+                "loves to have his ears rubbed when he greets you at the door, or at any time! loves to lean-in and give doggy hugs.";
+            animalNickname = "gus";
+            suggestedDonation = "85.00";
+            break;
+        case 2:
+            animalSpecies = "cat";
+            animalID = "c3";
+            animalAge = "1";
+            animalPhysicalDescription =
+                "small white female weighing about 8 pounds. litter box trained.";
+            animalPersonalityDescription = "friendly";
+            animalNickname = "snow";
+            suggestedDonation = "";
+            break;
+
+        case 3:
+            animalSpecies = "cat";
+            animalID = "c4";
+            animalAge = "3";
+            animalPhysicalDescription =
+                "Medium sized, long hair, yellow, female, about 10 pounds. Uses litter box.";
+            animalPersonalityDescription = "A people loving cat that likes to sit on your lap.";
+            animalNickname = "Lion";
+            suggestedDonation = "";
+            break;
+
+        default:
+            animalSpecies = "";
+            animalID = "";
+            animalAge = "";
+            animalPhysicalDescription = "";
+            animalPersonalityDescription = "";
+            animalNickname = "";
+            suggestedDonation = "";
+            break;
     }
-    else
+
+    myPets[i, 0] = "ID #: " + animalID;
+    myPets[i, 1] = "Species: " + animalSpecies;
+    myPets[i, 2] = "Age: " + animalAge;
+    myPets[i, 3] = "Nickname: " + animalNickname;
+    myPets[i, 4] = "Physical description: " + animalPhysicalDescription;
+    myPets[i, 5] = "Personality: " + animalPersonalityDescription;
+
+    if (!decimal.TryParse(suggestedDonation, out decimalDonation))
     {
-        message += values[i];
+        decimalDonation = 45.00m;
     }
+    myPets[i, 6] = $"Suggested Donation: {decimalDonation:C2}";
 }
 
-Console.WriteLine($"Message:{message}, total:{final}");
+do
+{
+    Console.WriteLine("Welcome to the Contoso PetFriends app. Your main menu options are:");
+    Console.WriteLine(" 1. List all of our current pet information");
+    Console.WriteLine(" 2. Display all dogs with a specified characteristic");
+    Console.WriteLine();
+    Console.WriteLine("Enter your selection number (or type Exit to exit the program)");
 
+    readResult = Console.ReadLine();
+    if (readResult != null)
+    {
+        menuSelection = readResult.ToLower();
+    }
 
-int value1 = 11;
-decimal value2 = 6.2m;
-float value3 = 4.3f;
+    switch (menuSelection)
+    {
+        case "1":
+            for (int i = 0; i < maxPets; i++)
+            {
+                if (myPets[i, 0] != "ID #: ")
+                {
+                    for (int j = 0; j < 7; j++)
+                    {
+                        Console.WriteLine(myPets[i, j]);
+                    }
+                    Console.WriteLine();
+                }
+            }
+            Console.WriteLine("Press the Enter key to continue.");
+            readResult = Console.ReadLine();
+            break;
 
-//test 1
-
-int result1 = Convert.ToInt32(value1 / value2);
-decimal result2 = value2 / (decimal)value3;
-float result3 = (float)value3 / value1;
-
-Console.WriteLine($"Divide value1 by value2, display the result as an int: {result1}");
-Console.WriteLine($"Divide value2 by value3, display the result as a decimal: {result2}");
-Console.WriteLine($"Divide value3 by value1, display the result as a float: {result3}");
+        case "2":
+            Console.WriteLine("Coming soon");
+            Console.WriteLine("Press the Enter key to continue.");
+            readResult = Console.ReadLine();
+            break;
+    }
+} while (menuSelection != "exit");
