@@ -124,7 +124,36 @@ do
             break;
 
         case "2":
-            Console.WriteLine("Coming soon");
+            bool validSearch = false;
+            string searchTerm = "";
+            do
+            {
+                Console.WriteLine("Enter a search term");
+                readResult = Console.ReadLine();
+                if (readResult != null)
+                {
+                    searchTerm = readResult.ToLower().Trim();
+                }
+                for (int i = 0; i < maxPets; i++)
+                {
+                    if (myPets[i, 0] != "ID #: ")
+                    {
+                        for (int j = 0; j < 7; j++)
+                        {
+                            if (myPets[i, 1].ToLower().Contains("dog"))
+                            {
+                                if (
+                                    searchTerm != ""
+                                    && myPets[i, 4].ToLower().Contains(searchTerm.ToLower().Trim())
+                                )
+                                {
+                                    Console.WriteLine(myPets[i, j]);
+                                }
+                            }
+                        }
+                    }
+                }
+            } while (searchTerm == "");
             Console.WriteLine("Press the Enter key to continue.");
             readResult = Console.ReadLine();
             break;
