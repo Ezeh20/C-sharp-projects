@@ -57,3 +57,41 @@ bool ValidateRange()
     }
     return true;
 }
+
+
+
+string[,] corporate =
+{
+    { "Robert", "Bavin" },
+    { "Simon", "Bright" },
+    { "Kim", "Sinclair" },
+    { "Aashrita", "Kamath" },
+    { "Sarah", "Delucchi" },
+    { "Sinan", "Ali" }
+};
+
+string[,] external =
+{
+    { "Vinnie", "Ashton" },
+    { "Cody", "Dysart" },
+    { "Shay", "Lawrence" },
+    { "Daren", "Valdes" }
+};
+
+string externalDomain = "hayworth.com";
+
+for (int i = 0; i < corporate.GetLength(0); i++)
+{
+    EmailAddress(firstName: corporate[i, 0], lastName: corporate[i, 1], domain: "contoso.com");
+}
+
+for (int i = 0; i < external.GetLength(0); i++)
+{
+    EmailAddress(firstName: external[i, 0], lastName: external[i, 1]);
+}
+
+string EmailAddress(string firstName, string lastName, string domain = "hayworth.com")
+{
+    Console.WriteLine(firstName.ToLower().Substring(0, 2) + lastName.ToLower() + "@" + domain);
+    return firstName.Substring(0, 2) + lastName + domain;
+}
