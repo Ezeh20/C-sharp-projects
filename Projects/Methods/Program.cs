@@ -95,3 +95,62 @@ string EmailAddress(string firstName, string lastName, string domain = "hayworth
     Console.WriteLine(firstName.ToLower().Substring(0, 2) + lastName.ToLower() + "@" + domain);
     return firstName.Substring(0, 2) + lastName + domain;
 }
+
+
+
+string[] words = { "racecar", "talented", "deified", "tent", "tenet", "boob", "cat" };
+const string ValidPalindrome = "a Palindrome";
+const string InValidPalindrome = "not a Palindrome";
+
+foreach (string word in words)
+{
+    Console.WriteLine($"{word} is {(IsPalindrome(word) ? ValidPalindrome : InValidPalindrome)}");
+}
+
+bool IsPalindrome(string word)
+{
+    if (string.IsNullOrEmpty(word) || string.IsNullOrWhiteSpace(word))
+        return false;
+    int start = 0;
+    int end = word.Length - 1;
+
+    for (int i = 0; i < word.Length; i++)
+    {
+        if (word[start] != word[end])
+        {
+            return false;
+        }
+        start++;
+        end--;
+    }
+    return true;
+}
+
+
+int[] TwoCoins(int[] coins, int target)
+{
+    for (int current = 0; current < coins.Length; current++)
+    {
+        for (int next = current + 1; next < coins.Length; next++)
+        {
+            if (coins[current] + coins[next] == target)
+            {
+                return new int[] { coins[current], coins[next] };
+            }
+        }
+    }
+    return new int[0];
+}
+
+int target = 60;
+int[] coins = new int[] { 5, 5, 50, 25, 25, 10, 5 };
+int[] result = TwoCoins(coins, target);
+
+if (result.Length != 2)
+{
+    Console.WriteLine($"No sum of two coins resulted to {target}");
+}
+else
+{
+    Console.WriteLine($"The sum of {result[0]} and {result[1]} resulted to {target}");
+}
